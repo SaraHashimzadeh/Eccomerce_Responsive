@@ -119,3 +119,7 @@ header {
 .category {
     text-align: center;
 }
+
+#featured-products {
+    margin: 80px auto;
+}
