@@ -40,7 +40,7 @@ ul {
 }
 
 /* -------------Header---------------- */
-.coontainer {
+.container {
     width: 80%;
     margin: auto;
 }
@@ -106,4 +106,16 @@ header {
     border: none;
     font-size: 16px;
     margin-top: 30px;
+}
+
+/* -----------------categories-------------- */
+.categories {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.category {
+    text-align: center;
 }
