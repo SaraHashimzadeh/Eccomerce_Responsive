@@ -23,6 +23,7 @@
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#"><img src="img/cart.png" alt=""></a></li>
                 </ul>
+                <a href="#" class="menuBtn"><img src="img/menu.png" alt=""></a>
             </nav>
             <div class="header-content">
                 <div class="headerinfo">
@@ -182,6 +183,18 @@
         <div class="copyright container">Copyright Sara Hashim | Powered by https://www.youtube.com</div>
     </footer>
 
-</body>
 
+
+    <script>
+        const menuBtn = document.querySelector('.menuBtn');
+        const navlinks = document.querySelector('.navlinks');
+
+        menuBtn.addEventListener('click', ()=> {
+            navlinks.classList.toggle('active');
+        })
+
+    </script>
+
+</body>
+ 
 </html>

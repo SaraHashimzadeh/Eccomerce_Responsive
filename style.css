@@ -192,3 +192,42 @@ footer h3 {
     text-align: center;
     color: whitesmoke;
 }
+.menuBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+
+}
+
+
+/* ----------------------responsive--------------------- */
+
+@media only screen and (max-width: 750px) {
+
+    .container {
+        width: 90%;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .navlinks {
+        flex-direction: column;
+        background: var(--heading);
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: -900px;
+    }
+    .navlinks li {
+        margin:20px auto;
+    }
+    .navlinks li a{
+        color: #dddddd;
+    }
+    .brand img {
+        width: 100px;
+    }
+}
