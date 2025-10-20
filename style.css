@@ -111,15 +111,26 @@ header {
 /* -----------------categories-------------- */
 .categories {
     display: flex;
-    margin-top: 80px;
+    margin: 80px auto;
     justify-content: space-between;
-    overflow-x: hidden;
 }
 
 .category {
     text-align: center;
 }
 
-#featured-products {
+#features-products {
     margin: 80px auto;
+}
+.section-info {
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    justify-content: center;
+    align-items: center;
+}
+.products {
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
 }
