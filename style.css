@@ -232,6 +232,24 @@ footer h3 {
     .brand img {
         width: 100px;
     }
+    header {
+        height: 100%;
+    }
+    .line {
+        width: 100px;
+    }
+
+    .header-content {
+        margin: 50px auto;
+        flex-direction: column;
+    }
+    .header-content h1 {
+        font-size: 40px;
+    }
+    .header-content img {
+        margin: 30px auto;
+    }
+
 }
 
 @media (max-width: 992px) {
