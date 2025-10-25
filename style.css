@@ -271,6 +271,13 @@ footer h3 {
         order: -1;
     }
 
+    .products {
+        flex-wrap: wrap;
+    }
+    .product {
+        margin-bottom: 20px;
+    }
+
 }
 
 @media (max-width: 992px) {
