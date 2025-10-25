@@ -212,6 +212,11 @@ footer h3 {
     .navbar {
         flex-direction: column;
     }
+
+    .second{
+        order: 1;
+    }
+
     .navlinks {
         flex-direction: column;
         background: var(--heading);
@@ -231,12 +236,17 @@ footer h3 {
     }
     .brand img {
         width: 100px;
+        margin-top: 20px;
+    }
+    .menuBtn {
+        margin-right: 20px;
     }
     header {
         height: 100%;
     }
     .line {
         width: 100px;
+        margin-bottom: 10px;
     }
 
     .header-content {
@@ -248,6 +258,17 @@ footer h3 {
     }
     .header-content img {
         margin: 30px auto;
+    }
+
+    .categories {
+        flex-wrap: wrap;
+    }
+    .second {
+        display: flex;
+        flex-direction: column;
+    }
+    .second img {
+        order: -1;
     }
 
 }
