@@ -288,6 +288,12 @@ footer h3 {
     .offer-content {
         margin: 30px;
     }
+    #featured {
+        flex-wrap: wrap;
+    }
+    .footer-content {
+        flex-wrap: wrap;
+    }
 
 }
 
